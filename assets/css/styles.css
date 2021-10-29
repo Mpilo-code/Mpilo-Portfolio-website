@@ -6,13 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colorers =====*/
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== TEXT FONT =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== margins =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -58,8 +58,13 @@ body{
   font-size: var(--normal-font-size);
   color: var(--second-color);
 }
-h1,h2,p{
+h1,h2{
   margin: 0;
+}
+p{
+  margin: 0;
+  font-size: large;
+  text-align: center;
 }
 ul{
   margin: 0;
@@ -206,8 +211,9 @@ img{
 .home__social-icon{
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: var(--second-color);
+  padding: 2.5rem 0rem 0rem 2.5rem;
 }
 .home__social-icon:hover{
   color: var(--first-color);
@@ -338,7 +344,7 @@ img{
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+  margin-left: auto; 
 }
 /*
 .contact__container{
